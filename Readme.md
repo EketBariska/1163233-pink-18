@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Катенька](https://up.htmlacademy.ru/adaptive/18/user/1163233).
-* Наставник: `Неизвестно`.
+* Наставник: Вика Коваленко. 
 
 ---
 
