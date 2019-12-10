@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Пинк</title>
+</head>
+
+<body>
+
+  <header class="page-header">
+
+    <a class="page-header__logo" href="source/index.html">
+      <img src="" width="61" height="40" alt="Картинка у логотипа">
+      <img src="" width="75" height="22" alt="Логотип Pink">
+    </a>
+    <nav class="main-nav">
+      <button class="main-nav__toggle" type="button">Открыть меню</button>
+      <ul class="main-nav__list site-list">
+        <li class="site-list__item">
+          <a href="source/index.html">Главная</a>
+        </li>
+        <li class="site-list__item">
+          <a href="#">Фотографии</a>
+        </li>
+        <li class="site-list__item">
+          <a href="source/form.html">Конкурс</a>
+        </li>
+        <li class="site-list__item">
+          <a href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="gallery">
+      <h1 class="gallery__title">Фотографии пользователей</h1>
+    </div>
+
+  </header>
+
+  <main class="page-main">
+
+    <h2 class="visually-hidden">Фотографии пользователей<h2>
+
+      <section class="user-photos">
+        <h3 class="user-photos__title">Взгляните на фотографии, которые выкладывают пользователи! Видете, как не хватает Ваших?</h3>
+        <ul class="user-photos__list">
+          <li class="user-photos__item--top-photo">
+            <p class="panorama-of-the-day" width="140" height="40">Панорама дня</p>
+            <section class="user-photos__description">
+              <p class="user-photos__author-name">Анна</p>
+              <p class="user-photos__online-author-time">(5 мин назад)</p>
+              <p class="user-photos__likes">Нравится: 215</p>
+              <p class="user-photos__author-comment">
+                Прыгать или нет? Напишите в комментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!
+              </p>
+            </section>
+          </li>
+          <li class="user-photos__item">
+            <section class="user-photos__description">
+              <p class="user-photos__author-name">Левон</p>
+              <p class="user-photos__online-author-time">(5 часов назад)</p>
+              <p class="user-photos__likes">Нравится: 356</p>
+              <p class="user-photos__author-comment">
+                Вчера он на луну летал, сегодня в руки к нам попал.
+              </p>
+            </section>
+          </li>
+          <li class="user-photos__item">
+            <section class="user-photos__description">
+              <p class="user-photos__author-name">Антон</p>
+              <p class="user-photos__online-author-time">(12 часов назад)</p>
+              <p class="user-photos__likes">Нравится: 666</p>
+              <p class="user-photos__author-comment">
+                Соседи будут рады!
+              </p>
+            </section>
+          </li>
+          <li class="user-photos__item">
+            <section class="user-photos__description">
+              <p class="user-photos__author-name">Борис</p>
+              <p class="user-photos__online-author-time">(20 часов назад)</p>
+              <p class="user-photos__likes">Нравится: 215</p>
+              <p class="user-photos__author-comment">
+                Здесь могла быть ваша цитата о высоком и вечном.
+              </p>
+            </section>
+          </li>
+          <li class="user-photos__item">
+            <section class="user-photos__description">
+              <p class="user-photos__author-name">Сергей</p>
+              <p class="user-photos__online-author-time">(25 часов назад)</p>
+              <p class="user-photos__likes">Нравится: 4</p>
+              <p class="user-photos__author-comment">
+                Самая кубанская в мире!
+              </p>
+            </section>
+          </li>
+          <li class="user-photos__item">
+            <section class="user-photos__description">
+              <p class="user-photos__author-name">Максим</p>
+              <p class="user-photos__online-author-time">(40 часов назад)</p>
+              <p class="user-photos__likes">Нравится: 150</p>
+              <p class="user-photos__author-comment">
+                Где снег-то?
+              </p>
+            </section>
+          </li>
+          <li class="user-photos__item">
+            <section class="user-photos__description">
+              <p class="user-photos__author-name">Надежда</p>
+              <p class="user-photos__online-author-time">(45 часов назад)</p>
+              <p class="user-photos__likes">Нравится: 2560</p>
+              <p class="user-photos__author-comment">
+                Всем GM и взаимные лайки!
+              </p>
+            </section>
+          </li>
+        </ul>
+      </section>
+
+      <p class="post-your-photos">
+        Затмите их всех!
+        Выкладывайте все, что накопилось в телефоне!
+      </p>
+
+      <section class="photo-editor">
+        <div class="photo-setup--crop">
+          <input type="range" min="0" max="100" step="1" value="30">
+        </div>
+        <div class="photo-setup--color">
+          <input type="range" min="0" max="100" step="1" value="90">
+        </div>
+        <div class="photo-setup--contrast">
+          <input type="range" min="0" max="100" step="1" value="60">
+        </div>
+
+        <button type="button" class="post-it">Запостить</button>
+        <button type="button" class="cancel-change">Отменить</button>
+
+      </section>
+
+    </main>
+
+    <footer  class="page-footer">
+
+      <a class="page-footer__logo">
+        <img src="" width="61" height="40" alt="Картинка у логотипа">
+        <img src="" width="75" height="22" alt="Логотип Pink">
+      </a>
+
+      <ul class="social-networks__list">
+        <li class="social-networks__list__item">
+          <a href="#" class="social-networks__link"></a>
+        </li>
+        <li class="footer_list_item">
+          <a href="#" class="social-networks__link"></a>
+        </li>
+        <li class="footer_list_item">
+          <a href="#" class="social-networks__link"></a>
+        </li>
+      </ul>
+
+      <a href="https://htmlacademy.ru/intensive/adaptive" class="developers">
+        Разработано
+        <svg></svg>
+      </a>
+
+    </footer>
+
+  </body>
+  </html>
