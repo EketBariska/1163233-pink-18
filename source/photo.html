@@ -17,13 +17,13 @@
       <button class="main-nav__toggle" type="button">Открыть меню</button>
       <ul class="main-nav__list site-list">
         <li class="site-list__item">
-          <a href="source/index.html">Главная</a>
+          <a href="index.html">Главная</a>
         </li>
         <li class="site-list__item">
           <a href="#">Фотографии</a>
         </li>
         <li class="site-list__item">
-          <a href="source/form.html">Конкурс</a>
+          <a href="form.html">Конкурс</a>
         </li>
         <li class="site-list__item">
           <a href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
@@ -44,8 +44,8 @@
       <section class="user-photos">
         <h3 class="user-photos__title">Взгляните на фотографии, которые выкладывают пользователи! Видете, как не хватает Ваших?</h3>
         <ul class="user-photos__list">
-          <li class="user-photos__item--top-photo">
-            <p class="panorama-of-the-day" width="140" height="40">Панорама дня</p>
+          <li class="user-photos__item user-photos__item--top-photo">
+            <p class="panorama-of-the-day">Панорама дня</p>
             <section class="user-photos__description">
               <p class="user-photos__author-name">Анна</p>
               <p class="user-photos__online-author-time">(5 мин назад)</p>
@@ -123,7 +123,7 @@
         Выкладывайте все, что накопилось в телефоне!
       </p>
 
-      <section class="photo-editor">
+      <form class="photo-editor" method="post" action="https://echo.htmlacademy.ru">
         <div class="photo-setup--crop">
           <input type="range" min="0" max="100" step="1" value="30">
         </div>
@@ -134,16 +134,16 @@
           <input type="range" min="0" max="100" step="1" value="60">
         </div>
 
-        <button type="button" class="post-it">Запостить</button>
-        <button type="button" class="cancel-change">Отменить</button>
+        <button type="submit" class="post-it">Запостить</button>
+        <button type="reset" class="cancel-change">Отменить</button>
 
-      </section>
+      </form>
 
     </main>
 
     <footer  class="page-footer">
 
-      <a class="page-footer__logo">
+      <a class="page-footer__logo" href="index.html">
         <img src="" width="61" height="40" alt="Картинка у логотипа">
         <img src="" width="75" height="22" alt="Логотип Pink">
       </a>
